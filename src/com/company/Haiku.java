@@ -20,8 +20,6 @@ public class Haiku extends Poem{
 
         for (int i = 1; i <= getLines(); i++) {
             super.printTas(getSyllables(i));
-            System.out.print("ta");
-            System.out.println();
         }
     }
 }
