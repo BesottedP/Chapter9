@@ -19,9 +19,7 @@ public class Limerick extends Poem{
     public void printRhythm() {
 
         for (int i = 1; i <= getLines(); i++) {
-            for (int j = 0; j < getSyllables(i)-1; j++) {
-                System.out.print("ta-");
-            }
+            super.printTas(getSyllables(i));
             System.out.print("ta");
             System.out.println();
         }

@@ -16,7 +16,9 @@ public class Poem {
         System.out.println("Free Verse!");
     }
 
-    public static void main(String[] args) {
-        // write your code here
+    public void printTas(int k){
+        for (int j = 0; j < k-1; j++) {
+            System.out.print("ta-");
+        }
     }
 }
