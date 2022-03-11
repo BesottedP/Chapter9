@@ -24,5 +24,4 @@ public class Haiku extends Poem{
             System.out.println();
         }
     }
-
 }

@@ -24,5 +24,4 @@ public class Limerick extends Poem{
             System.out.println();
         }
     }
-
 }
