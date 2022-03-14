@@ -9,9 +9,9 @@ public class PictureBook extends Book{
         illustrator = i;
     }
 
-//    public String printBookInfo(){
-//        System.out.println(super.printBookInfo());
-////        System.out.println(super.printBookInfo() + ", " + this.illustrator);
-//    }
+    public void printBookInfo(){
+        super.printBookInfo();
+        System.out.println(" and illustrated by " + this.illustrator);
+    }
 }
 

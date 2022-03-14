@@ -11,6 +11,7 @@ public class Book {
     }
 
     public void printBookInfo(){
-        System.out.println(this.title + ", written by " + this.author);
+        System.out.print(this.title + ", written by " + this.author);
     }
+
 }
