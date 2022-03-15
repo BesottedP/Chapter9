@@ -13,5 +13,4 @@ public class Book {
     public void printBookInfo(){
         System.out.print(this.title + ", written by " + this.author);
     }
-
 }

@@ -1,18 +1,17 @@
 package com.company;
 
-public class BookListing extends Book{
+public class BookListing{
 
     private double cost;
     private Book book;
 
     public BookListing(Book b, double p){
-        super();
         book = b;
         cost = p;
     }
 
     public void printDescription(){
-        super.printBookInfo();
+        book.printBookInfo();
         System.out.println(", $" + this.cost);
     }
 }

@@ -11,7 +11,7 @@ public class PictureBook extends Book{
 
     public void printBookInfo(){
         super.printBookInfo();
-        System.out.println(" and illustrated by " + this.illustrator);
+        System.out.print(" and illustrated by " + this.illustrator);
     }
 }
 
